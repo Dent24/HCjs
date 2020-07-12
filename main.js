@@ -188,3 +188,8 @@ for (let i = 0; i < products.length; i++) {
     ps[i].innerText = products[i];
     
 }
+
+
+// const 的數值無法被改變
+const PI = 3.141592653589793;
+PI = 3.14;
