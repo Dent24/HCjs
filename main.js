@@ -173,5 +173,10 @@ score.onchange = () => {
 
 for (let i = 0; i < 10; i++) {
     console.log("次數" + i);
+}
+
+var products=["琴費士","教父","環球世界"]
+for (let i = 0; i < products.length; i++) {
+    console.log(products[i]);
     
 }
