@@ -180,3 +180,11 @@ for (let i = 0; i < products.length; i++) {
     console.log(products[i]);
     
 }
+
+var ps = document.getElementsByClassName("products");
+console.log(ps);
+
+for (let i = 0; i < products.length; i++) {
+    ps[i].innerText = products[i];
+    
+}
