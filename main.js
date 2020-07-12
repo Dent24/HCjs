@@ -170,3 +170,8 @@ score.onchange = () => {
         result.innerText = "分數" + s + "-被當";
     }
 }
+
+for (let i = 0; i < 10; i++) {
+    console.log("次數" + i);
+    
+}
