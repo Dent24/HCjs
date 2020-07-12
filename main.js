@@ -192,4 +192,11 @@ for (let i = 0; i < products.length; i++) {
 
 // const 的數值無法被改變
 const PI = 3.141592653589793;
-PI = 3.14;
+
+// let不可以重複
+var countA=10;
+{
+    let countA=5;
+    console.log(countA);
+}
+console.log(countA);
