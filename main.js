@@ -200,3 +200,17 @@ var countA=10;
     console.log(countA);
 }
 console.log(countA);
+
+// var會被區塊內覆蓋
+// let則不會
+var countB = 99;
+{
+    var countB = 77;
+}
+console.log(countB);
+
+let countC = 99;
+{
+    let countC = 77;
+}
+console.log(countC);
