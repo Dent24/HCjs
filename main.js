@@ -155,3 +155,18 @@ console.log(false || false);        // f
 if (true) {
     console.log("判斷式");
 }
+
+var score = document.getElementById("score");
+var result = document.getElementById("result");
+score.onchange = () => {
+    var s = parseInt(score.value);
+    if (s >= 60) {
+        result.innerText = "分數" + s + "-及格";
+    }
+    else if (s >= 40) {
+        result.innerText = "分數" + s + "-補考";
+    }
+    else {
+        result.innerText = "分數" + s + "-被當";
+    }
+}
